@@ -18,8 +18,7 @@ public class Main {
 		ActionRecorder actions = new ActionRecorder(board);
 		Input input = new Input(actions);
 		Painter pic = new Painter(actions);
-		
-
+        System.out.println("test");
 		JFrame window = new JFrame("Surakarta 2018.8.5");
 		window.setSize(11 * Painter.unitWidth, 13 * Painter.unitWidth);
 		window.setBackground(Color.white);
