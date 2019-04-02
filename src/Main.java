@@ -31,7 +31,6 @@ public class Main {
 		pic.addMouseListener(input);
 		pic.addKeyListener(input);
 		pic.addMouseWheelListener(input);
-		
 		pic.addComponentListener(new ComponentAdapter() {
             public void componentResized(ComponentEvent e) { 
                 pic.refreshStaticVariable(Math.min(pic.getHeight()/13,pic.getWidth()/11));
